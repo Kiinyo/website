@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="/src/age_verification.js"></script>
+  <title>Age Verification</title>
+  <link rel="icon" href="/favicon.png" type="image/png">
+</head>
+<body>
+  <div>
+    <h2>You must be 18+ years old to visit my site!</h2>
+    <form action="javascript:age_query()">
+      <label for="is_18">
+        <input type="checkbox" name="age_verification" id="is_18">
+        I am at least 18 years old
+      </label>
+      <br>
+      <label for="re_me">
+        <input type="checkbox" name="remember_me" id="re_me">
+        Remember me
+      </label>
+      <br>
+      <input type="submit" value="Enter!">
+    </form>
+  </div>
+</body>
+</html>
